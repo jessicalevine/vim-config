@@ -137,6 +137,9 @@ map <Leader>p "+p
 " NERDTree configuration
 map <Leader>o :NERDTreeToggle<CR>
 
+" Fugitive configuration
+autocmd QuickFixCmdPost *grep* cwindow
+
 " tComment configuration
 vmap <Leader>c gc
 nmap <Leader>c gcc
