@@ -18,6 +18,7 @@ Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tomtom/tcomment_vim'
+Bundle 'Lokaltog/vim-powerline'
 
 filetype plugin indent on " required!
 " VUNDLER END
@@ -139,4 +140,8 @@ map <Leader>o :NERDTreeToggle<CR>
 vmap <Leader>c gc
 nmap <Leader>c gcc
 
+" Powerline configuration
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show Unicode glyphs
+ 
 " END PLUGIN CONFIGURATION
