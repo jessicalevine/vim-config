@@ -14,6 +14,7 @@ Bundle 'gmarik/vundle'
 Bundle 'fakeclip'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-endwise'
 
 filetype plugin indent on " required!
 " VUNDLER END
