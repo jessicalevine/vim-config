@@ -17,6 +17,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-eunuch'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'Lokaltog/vim-powerline'
 
