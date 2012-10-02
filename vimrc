@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 " My vundles
 Bundle 'fakeclip'
 Bundle 'flazz/vim-colorschemes'
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on " required!
 " VUNDLER END
@@ -126,5 +127,8 @@ noremap <silent> <Leader><Right> <C-w>>
 " fakeclip configuration
 vmap <Leader>y "+y
 map <Leader>p "+p
+
+" NERDTree configuration
+map <Leader>o :NERDTreeToggle<CR>
 
 " END PLUGIN CONFIGURATION
