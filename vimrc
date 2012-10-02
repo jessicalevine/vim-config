@@ -35,7 +35,7 @@ endif
 
 colorscheme jellybeans
 
-" Set leader to `
+" Set leader to space
 let mapleader = " "
 
 set tabstop=2 " Four spaces to a tab.
