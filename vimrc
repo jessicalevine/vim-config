@@ -110,4 +110,8 @@ noremap <silent> <Leader><Up> <C-W>+
 noremap <silent> <Leader><Right> <C-w>>
 
 " BEGIN PLUGIN CONFIGURATION
+
+" fakeclip configuration
+vmap <Leader>y "+y
+
 " END PLUGIN CONFIGURATION
