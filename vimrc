@@ -16,6 +16,15 @@ Bundle 'fakeclip'
 filetype plugin indent on " required!
 " VUNDLER END
 
+" Checks for 256 colors
+" Thanks to deploymentzone.com and Xoria256
+if &t_Co != 256 && ! has("gui_running")
+  echomsg ""
+  echomsg "err: please use GUI or a 256-color terminal (so that t_Co=256 could be set)"
+  echomsg ""
+  finish
+endif
+
 " Set leader to `
 let mapleader = " "
 
