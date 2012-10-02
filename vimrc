@@ -17,6 +17,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tomtom/tcomment_vim'
 
 filetype plugin indent on " required!
 " VUNDLER END
@@ -133,5 +134,9 @@ map <Leader>p "+p
 
 " NERDTree configuration
 map <Leader>o :NERDTreeToggle<CR>
+
+" tComment configuration
+vmap <Leader>c gc
+nmap <Leader>c gcc
 
 " END PLUGIN CONFIGURATION
