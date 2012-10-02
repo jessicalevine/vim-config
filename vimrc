@@ -12,6 +12,7 @@ Bundle 'gmarik/vundle'
 
 " My vundles
 Bundle 'fakeclip'
+Bundle 'flazz/vim-colorschemes'
 
 filetype plugin indent on " required!
 " VUNDLER END
@@ -24,6 +25,8 @@ if &t_Co != 256 && ! has("gui_running")
   echomsg ""
   finish
 endif
+
+colorscheme jellybeans
 
 " Set leader to `
 let mapleader = " "
