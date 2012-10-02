@@ -113,5 +113,6 @@ noremap <silent> <Leader><Right> <C-w>>
 
 " fakeclip configuration
 vmap <Leader>y "+y
+map <Leader>p "+p
 
 " END PLUGIN CONFIGURATION
