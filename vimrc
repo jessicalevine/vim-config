@@ -21,6 +21,7 @@ Bundle 'tpope/vim-eunuch'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'SuperTab'
+Bundle 'ctrlp.vim'
 
 filetype plugin indent on " required!
 " VUNDLER END
@@ -150,4 +151,7 @@ set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
 let g:Powerline_symbols = 'fancy'
  
+" CtrlP configuration
+let g:ctrlp_map = '<Leader>f'
+
 " END PLUGIN CONFIGURATION
