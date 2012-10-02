@@ -1,6 +1,21 @@
 " Quick thanks to the Internet and Sam Rose for all the help
 set nocompatible " Disable vi compatibility
 
+" VUNDLER START
+filetype off " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle (required)
+Bundle 'gmarik/vundle'
+
+" My vundles
+Bundle 'fakeclip'
+
+filetype plugin indent on " required!
+" VUNDLER END
+
 " Set leader to `
 let mapleader = " "
 
@@ -93,3 +108,6 @@ noremap <silent> <Leader><Left> <C-w><
 noremap <silent> <Leader><Down> <C-W>-
 noremap <silent> <Leader><Up> <C-W>+
 noremap <silent> <Leader><Right> <C-w>>
+
+" BEGIN PLUGIN CONFIGURATION
+" END PLUGIN CONFIGURATION
