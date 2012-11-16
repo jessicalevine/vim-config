@@ -23,6 +23,7 @@ Bundle 'tomtom/tcomment_vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'SuperTab'
 Bundle 'ctrlp.vim'
+Bundle 'henrik/vim-qargs'
 
 filetype plugin indent on " required!
 " VUNDLER END
@@ -130,6 +131,8 @@ noremap <silent> <Leader><Left> <C-w><
 noremap <silent> <Leader><Down> <C-W>-
 noremap <silent> <Leader><Up> <C-W>+
 noremap <silent> <Leader><Right> <C-w>>
+
+set autowrite
 
 " BEGIN PLUGIN CONFIGURATION
 
