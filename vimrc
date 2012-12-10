@@ -24,6 +24,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'SuperTab'
 Bundle 'ctrlp.vim'
 Bundle 'henrik/vim-qargs'
+Bundle 'kchmck/vim-coffee-script'
 
 filetype plugin indent on " required!
 " VUNDLER END
