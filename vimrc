@@ -136,6 +136,9 @@ noremap <silent> <Leader><Right> <C-w>>
 
 set autowrite
 
+" Use tab characters in all make type files
+autocmd FileType make setlocal noexpandtab
+
 " BEGIN PLUGIN CONFIGURATION
 
 " fakeclip configuration
