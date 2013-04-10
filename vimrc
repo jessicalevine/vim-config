@@ -26,6 +26,7 @@ Bundle 'ctrlp.vim'
 Bundle 'henrik/vim-qargs'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'vim-scripts/c.vim'
+Bundle 'godlygeek/tabular'
 
 filetype plugin indent on " required!
 " VUNDLER END
