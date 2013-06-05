@@ -143,6 +143,10 @@ autocmd FileType make setlocal noexpandtab
 " Use js syntax highlighting for JSON
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
+" Highlight current line
+:set cursorline
+:hi CursorLine ctermbg=234
+
 " BEGIN PLUGIN CONFIGURATION
 
 " fakeclip configuration
