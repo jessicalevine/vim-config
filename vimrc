@@ -42,9 +42,6 @@ endif
 
 colorscheme jellybeans
 
-" Set leader to space
-let mapleader = " "
-
 set tabstop=2 " Four spaces to a tab.
 set softtabstop=2
 set shiftwidth=2 " Number of spaces to use for autoindenting.
