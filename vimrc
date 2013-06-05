@@ -140,6 +140,9 @@ set autowrite
 " Use tab characters in all make type files
 autocmd FileType make setlocal noexpandtab
 
+" Use js syntax highlighting for JSON
+autocmd BufNewFile,BufRead *.json set ft=javascript
+
 " BEGIN PLUGIN CONFIGURATION
 
 " fakeclip configuration
