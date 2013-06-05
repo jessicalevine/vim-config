@@ -130,10 +130,10 @@ set ruler
 set shiftround
 
 " Maps for window resizing
-noremap <silent> <Leader><Left> <C-w><
-noremap <silent> <Leader><Down> <C-W>-
-noremap <silent> <Leader><Up> <C-W>+
-noremap <silent> <Leader><Right> <C-w>>
+noremap <silent> <Left> <C-w><
+noremap <silent> <Down> <C-W>-
+noremap <silent> <Up> <C-W>+
+noremap <silent> <Right> <C-w>>
 
 set autowrite
 
