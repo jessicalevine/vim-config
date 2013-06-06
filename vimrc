@@ -96,11 +96,11 @@ nnoremap ; :
 " jj to exit inset, when do you type it?
 inoremap jj <ESC>
 
-" Navigate splits with ctrl-direction
-nnoremap <Leader>h <C-w>h
-nnoremap <Leader>j <C-w>j
-nnoremap <Leader>k <C-w>k
-nnoremap <Leader>l <C-w>l
+" Navigate splits with space+direction
+nnoremap <Space>h <C-w>h
+nnoremap <Space>j <C-w>j
+nnoremap <Space>k <C-w>k
+nnoremap <Space>l <C-w>l
 
 set visualbell
 
