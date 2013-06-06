@@ -114,7 +114,7 @@ nmap <Leader>s :source $MYVIMRC<CR>
 set history=1000
 
 " Set title of file as terminal title
-let &titlestring = ":vim => " . expand("%:t")
+autocmd BufEnter * let &titlestring = "vim: " . expand("%:t")
 set title
 
 " Scroll 3 before buffer end
