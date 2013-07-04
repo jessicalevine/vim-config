@@ -145,6 +145,10 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 :set cursorline
 :hi CursorLine ctermbg=234
 
+" Map ctags jump to leader
+noremap <Leader>g <C-w>]
+noremap <Leader>b <C-w>T
+
 " BEGIN PLUGIN CONFIGURATION
 
 " fakeclip configuration
