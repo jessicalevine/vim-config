@@ -28,6 +28,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'vim-scripts/c.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'rking/ag.vim'
+Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on " required!
 " VUNDLER END
@@ -41,7 +42,9 @@ if &t_Co != 256 && ! has("gui_running")
   finish
 endif
 
-colorscheme jellybeans
+syntax enable
+set background=dark
+colorscheme solarized
 
 set tabstop=2 " Four spaces to a tab.
 set softtabstop=2
