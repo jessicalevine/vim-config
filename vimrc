@@ -29,7 +29,7 @@ Bundle 'vim-scripts/c.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'rking/ag.vim'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'jelera/vim-javascript-syntax'
+Bundle 'vim-scripts/JavaScript-Indent'
 
 filetype plugin indent on " required!
 " VUNDLER END
