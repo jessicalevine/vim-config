@@ -30,6 +30,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'rking/ag.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-scripts/JavaScript-Indent'
+Bundle 'yssl/QFEnter'
 
 filetype plugin indent on " required!
 " VUNDLER END
