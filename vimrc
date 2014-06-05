@@ -31,6 +31,7 @@ Bundle 'rking/ag.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-scripts/JavaScript-Indent'
 Bundle 'yssl/QFEnter'
+Bundle 'majutsushi/tagbar'
 
 filetype plugin indent on " required!
 " VUNDLER END
@@ -177,5 +178,9 @@ let g:Powerline_symbols = 'fancy'
  
 " CtrlP configuration
 let g:ctrlp_map = '<Leader>f'
+
+" Tagbar configuration
+nmap <Leader>t :TagbarToggle<CR>
+let g:tagbar_left=1
 
 " END PLUGIN CONFIGURATION
