@@ -159,6 +159,9 @@ noremap <Leader>b <C-w>T
 set wildmenu
 set wildmode=full
 
+" Complete to longest available intersection of possible completions
+set completeopt=longest,menuone
+
 " BEGIN PLUGIN CONFIGURATION
 
 " fakeclip configuration
