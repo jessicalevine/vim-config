@@ -155,6 +155,10 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 noremap <Leader>g <C-w>]
 noremap <Leader>b <C-w>T
 
+" Better command line completion
+set wildmenu
+set wildmode=full
+
 " BEGIN PLUGIN CONFIGURATION
 
 " fakeclip configuration
