@@ -32,6 +32,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-scripts/JavaScript-Indent'
 Bundle 'yssl/QFEnter'
 Bundle 'majutsushi/tagbar'
+Bundle 'vim-ruby/vim-ruby'
 
 filetype plugin indent on " required!
 " VUNDLER END
