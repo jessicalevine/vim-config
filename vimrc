@@ -101,9 +101,6 @@ nnoremap k gk
 " Commands with semicolon
 nnoremap ; :
 
-" jj to exit inset, when do you type it?
-inoremap jj <ESC>
-
 " Navigate splits with space+direction
 nnoremap <Space>h <C-w>h
 nnoremap <Space>j <C-w>j
