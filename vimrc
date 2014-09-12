@@ -185,7 +185,11 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 let g:Powerline_symbols = 'fancy'
  
 " CtrlP configuration
-let g:ctrlp_map = '<Leader>f'
+let g:ctrlp_map = 'gt'
+let g:ctrlp_cmd = 'CtrlPTag'
+nmap gw :CtrlPTag<CR><C-\>w<CR>
+nmap gb <C-t>
+let g:ctrlp_extensions = ['tag']
 
 " Tagbar configuration
 nmap <Leader>t :TagbarToggle<CR>
