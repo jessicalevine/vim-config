@@ -158,7 +158,7 @@ noremap <Leader>b <C-w>T
 
 " Better command line completion
 set wildmenu
-set wildmode=full
+set wildmode=longest:list,full
 
 " Complete to longest available intersection of possible completions
 set completeopt=longest,menuone
